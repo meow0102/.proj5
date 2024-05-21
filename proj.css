@@ -105,6 +105,7 @@ nav {
   display: flex;
   gap: 32px;
   margin-bottom: 45px;
+  margin-left: 15px;
 }
 
 .button-left {
@@ -115,7 +116,6 @@ nav {
   background: #efae35;
   font-size: 14px;
   line-height: 1.42;
-  margin-left: 12px;
 }
 
 .button-right {
@@ -159,7 +159,6 @@ nav {
   font-size: 18px;
   line-height: 1.7;
   margin-left: 6px;
-  margin-top: 15px;
   margin-bottom: 20px;
 }
 
@@ -444,15 +443,12 @@ nav {
 }
 
 .App-container {
-  position: center;
-  justify-content: center;
   margin: 0 auto;
   width: 320px;
 }
 
 .App-title {
   width: 245px;
-  height: 58px;
   font-size: 43px;
   font-weight: 400;
   line-height: 1.33;
@@ -472,7 +468,6 @@ nav {
 
 .App-text {
   width: 141px;
-  height: 234px;
   font-size: 11px;
   line-height: 1.63;
   margin-left: 10px;
@@ -480,7 +475,6 @@ nav {
 
 .App-text-bottom {
   width: 100px;
-  height: 17px;
   font-size: 12px;
   line-height: 1.41;
   margin-left: 23px;
@@ -499,7 +493,6 @@ nav {
 
 .Home-title {
   width: 260px;
-  height: 115px;
   font-size: 43px;
   font-weight: 400;
   line-height: 1.33;
@@ -584,8 +577,9 @@ nav {
   margin-bottom: 40px;
   background: rgba(36, 22, 11, 1);
   padding-left: 10px;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-right: 10px;
+  padding-bottom: 40px;
 }
 .Rectangle-list {
   display: flex;
@@ -606,7 +600,6 @@ nav {
   font-size: 11px;
   font-weight: 400;
   line-height: 1.27;
-
 }
 .Rectangle-list-item-text-center {
   width: 96px;
@@ -614,6 +607,7 @@ nav {
   font-size: 9px;
   font-weight: 400;
   line-height: 1.22;
+  margin-bottom: 20px;
 }
 .Rectangle-list-item-text-bottom-center {
   width: 75px;
@@ -621,7 +615,6 @@ nav {
   font-size: 11px;
   font-weight: 400;
   line-height: 1.27;
-  margin-top: 10px;
 }
 .Rectangle-list-item-text-last {
   width: 96px;
@@ -629,6 +622,7 @@ nav {
   font-size: 9px;
   font-weight: 400;
   line-height: 1.22;
+  margin-bottom: 35px;
 }
 .Rectangle-list-item-text-bottom-last {
   width: 82px;
@@ -636,7 +630,6 @@ nav {
   font-size: 11px;
   font-weight: 400;
   line-height: 1.27;
-  margin-top: 25px;
 }
 .whyAro {
   margin: 0 auto;
@@ -889,20 +882,21 @@ footer {
     height: 91px;
     line-height: 1.8;
   }
-  .g {
+  .Introducing {
     margin: 0 auto;
     margin-bottom: 40px;
+    margin-top: 100px;
   }
   .Introducing-container {
     width: 768px;
     position: relative;
+    padding-left: 20px;
   }
   .Introducing-title {
     width: 319px;
     font-size: 48px;
     line-height: 0.9;
-    margin-top: 150px;
-    margin-left: 10px;
+    margin: 0;
   }
   .Introducing-image {
     width: 414px;
@@ -918,7 +912,6 @@ footer {
     width: 321px;
     font-size: 15px;
     line-height: 1.6;
-    padding-left: 10px;
   }
 
   .bottom-div {
@@ -934,6 +927,7 @@ footer {
 
   .teach-container {
     width: 768px;
+    position: relative;
   }
   .teach-title {
     width: 597px;
@@ -944,7 +938,8 @@ footer {
     border-radius: 16px;
     width: 362px;
     height: 227px;
-    order: 3;
+    position: absolute;
+    left: 370px;
   }
   .tea {
     display: flex;
@@ -960,14 +955,9 @@ footer {
     font-size: 13px;
     line-height: 1.23x;
   }
-  .bottom-text-div {
-  }
-  .bottom-text-div:nth-child(2n + 1) {
+  .bottom-text-div:odd {
     display: flex;
     flex-direction: row-reverse;
-  }
-  .bottom-text-div:nth-child(2n) {
-    display: flex;
   }
   .bottom-text-interest {
     width: 127px;
@@ -990,7 +980,6 @@ footer {
   }
   .teach-title-kids {
     width: 604px;
-    height: 57px;
     font-size: 44px;
     line-height: 1.3;
   }
@@ -1007,19 +996,16 @@ footer {
   }
   .teach-text-bottom-kids {
     width: 313px;
-    height: 32px;
     font-size: 13px;
     line-height: 1.2;
   }
   .bottom-text-interest-kids {
     width: 127px;
-    height: 43px;
     font-size: 40px;
     line-height: 1.1;
   }
   .bottom-text-left-kids {
     width: 127px;
-    height: 16px;
     font-size: 10px;
     line-height: 1.2;
   }
@@ -1030,39 +1016,34 @@ footer {
   }
   .teach-img-partner {
     width: 362px;
-    height: 262px;
     border-radius: 16px;
-    order: 1;
+    position: absolute;
+    left: 370px;
   }
   .part {
     display: flex;
   }
   .teach-text-partner {
     width: 351px;
-    height: 175px;
     font-size: 15px;
     line-height: 1.66;
   }
   .teach-text-bottom-partner {
     width: 303px;
-    height: 32px;
     font-size: 13px;
     line-height: 1.23;
   }
   .bottom-text-interest-partner {
     width: 81px;
-    height: 44px;
     font-size: 40px;
     line-height: 1.17;
   }
   .bottom-text-left-partner {
     width: 95px;
-    height: 11px;
     font-size: 10px;
     line-height: 1.1;
   }
   .teach-title-me {
-    height: 57px;
     font-size: 42px;
     font-weight: 400;
     line-height: 1.36;
@@ -1074,25 +1055,21 @@ footer {
   }
   .teach-text-me {
     width: 354px;
-    height: 111px;
     font-size: 15px;
     line-height: 1.66;
   }
   .teach-text-bottom-me {
     width: 330px;
-    height: 22px;
     font-size: 13px;
     line-height: 1.72;
   }
   .bottom-text-interest-me {
     width: 78px;
-    height: 41px;
     font-size: 40px;
     line-height: 1.17;
   }
   .bottom-text-left-me {
     width: 73px;
-    height: 11px;
     font-size: 10px;
     line-height: 1.1;
   }
@@ -1251,8 +1228,8 @@ footer {
     margin-right: 264px;
     margin-top: 185px;
     margin-bottom: 185px;
-    width: 148px;
-    height: 41px;
+    width: 225px;
+    height: 57px;
     border-radius: 80px;
     box-shadow: -1px 1px 2px 0px rgba(255, 255, 255, 0.07);
   }
@@ -1269,20 +1246,17 @@ footer {
   .Rectangle-container {
     width: 768px;
     height: 549px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
   }
   .Rectangle-list {
     gap: 40px;
-    padding-top: 40px;
-  }
-  .Rectangle-list:first-child {
-    padding-left: 40px;
   }
   .Rectangle-list-item-text-first {
     width: 202px;
     font-size: 18px;
     line-height: 1.7;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   .Rectangle-list-item-text-bottom-first {
     width: 158px;
@@ -1293,12 +1267,12 @@ footer {
     width: 195px;
     font-size: 18px;
     line-height: 1.7;
+    margin-bottom: 35px;
   }
   .Rectangle-list-item-text-bottom-center {
     width: 138px;
     font-size: 21px;
     line-height: 1.2;
-    margin-top: 30px;
   }
   .Rectangle-list-item-text-last {
     width: 201px;
@@ -1453,9 +1427,13 @@ footer {
   }
 }
 @media (min-width: 1200px) {
+  header {
+    width: 1200px;
+    margin: 0 auto;
+  }
   .nav-container {
     width: 1200px;
-    padding-left: 500px;
+    padding-left: 300px;
   }
   .nav-list {
     gap: 32px;
@@ -1472,6 +1450,7 @@ footer {
     width: 154px;
     height: 57px;
     flex-shrink: 0;
+    margin-top: 7px;
   }
   .aro-container {
     margin-top: 15px;
@@ -1479,16 +1458,22 @@ footer {
     padding-top: 231px;
     padding-left: 90px;
   }
-  .aro{
+  .aro {
     width: 1200px;
   }
   .aro-text {
     width: 559px;
   }
-
+  .Introducing {
+    width: 1200px;
+    margin-bottom: 40px;
+  }
   .Introducing-container {
-    padding-left: 180px;
-    width: 1020px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
   }
   .Introducing-title {
     font-size: 60px;
@@ -1499,6 +1484,9 @@ footer {
     width: 532px;
     height: 450px;
     left: 600px;
+  }
+  .bottom-div {
+    margin-top: 25px;
   }
   .Introducing-text {
     margin-top: 32px;
@@ -1511,9 +1499,15 @@ footer {
     height: 57px;
     flex-shrink: 0;
   }
+  .button-right {
+    margin-top: 15px;
+  }
+  .teach {
+    width: 1200px;
+    padding-left: 20px;
+  }
   .teach-container {
     width: 1200px;
-    padding-left: 180px;
   }
   .teach-title {
     width: 347px;
@@ -1524,14 +1518,14 @@ footer {
   .teach-img {
     width: 458px;
     height: 305px;
-    flex-shrink: 0;
     border-radius: 16px;
+    left: 550px;
+    margin-right: 50px;
   }
   .teach-text {
     width: 442px;
     font-size: 18px;
     line-height: 1.7;
-    padding-top: 70px;
   }
   .teach-text-bottom {
     width: 398px;
@@ -1548,11 +1542,16 @@ footer {
     font-size: 10px;
     line-height: 3.06;
   }
-
+  .bottom-text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
   .teach-title-kids {
     width: 440px;
     font-size: 44px;
     line-height: 1.3;
+    margin-left: 570px;
   }
   .teach-img-kids {
     width: 458px;
@@ -1564,20 +1563,26 @@ footer {
     width: 457px;
     font-size: 18px;
     line-height: 1.7;
+    margin-left: 104px;
+    margin-bottom: 20px;
   }
   .teach-text-bottom-kids {
     width: 392px;
     font-size: 16px;
     line-height: 1.4;
+    margin-left: 104px;
+    margin-bottom: 30px;
   }
   .bottom-text-interest-kids {
     font-size: 60px;
     line-height: 1.3;
+    margin-left: 104px;
   }
   .bottom-text-left-kids {
     width: 130px;
     font-size: 10px;
     line-height: 3.06;
+    margin-left: 104px;
   }
   .teach-title-partner {
     width: 386px;
@@ -1589,6 +1594,7 @@ footer {
     height: 305px;
     flex-shrink: 0;
     border-radius: 16px;
+    left: 550px;
   }
   .teach-text-partner {
     width: 456px;
@@ -1614,6 +1620,7 @@ footer {
     width: 364px;
     font-size: 42px;
     line-height: 1.36;
+    margin-left: 570px;
   }
   .teach-img-me {
     width: 458px;
@@ -1625,21 +1632,25 @@ footer {
     width: 454px;
     font-size: 18px;
     line-height: 1.7;
+    margin-left: 104px;
   }
   .teach-text-bottom-me {
     width: 351px;
     font-size: 16px;
     line-height: 1.4;
+    margin-left: 104px;
   }
   .bottom-text-interest-me {
     width: 101px;
     font-size: 54px;
     line-height: 1.03;
+    margin-left: 104px;
   }
   .bottom-text-left-me {
     width: 73px;
     font-size: 10px;
     line-height: 3.06;
+    margin-left: 104px;
   }
   .Featured-container {
     width: 1200px;
@@ -1667,7 +1678,7 @@ footer {
     height: 36px;
     gap: 80px;
     justify-content: center;
-    margin-left: 520px;
+    margin-left: 555px;
   }
   .see {
     background: url(./proj-img/tea.webp) lightgray 50% / cover no-repeat;
@@ -1704,11 +1715,14 @@ footer {
     line-height: 1.33;
     margin-left: 10px;
   }
-
+  .Experience-section {
+    width: 1200px;
+  }
   .Experience-container {
     width: 1200px;
-    padding-right: 180px;
-    padding-left: 180px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 140px;
   }
   .Experience-title {
     font-size: 43px;
@@ -1731,17 +1745,20 @@ footer {
     width: 136px;
     font-size: 17px;
     line-height: 1.48;
+    margin: 0;
   }
   .App-container {
     width: 1200px;
-    padding-right: 180px;
-    padding-left: 180px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 140px;
   }
   .App-title {
     width: 241px;
     font-size: 43px;
     font-weight: 400;
     line-height: 1.33;
+    margin-left: 490px;
   }
   .App-img {
     width: 458px;
@@ -1753,6 +1770,7 @@ footer {
     width: 136px;
     font-size: 17px;
     line-height: 1.48;
+    margin: 0;
   }
   .App-text {
     width: 454px;
@@ -1760,15 +1778,17 @@ footer {
     line-height: 1.7;
   }
   .Home-container {
-    padding-right: 180px;
-    padding-left: 180px;
+    margin: 0 auto;
     width: 1200px;
+    padding-top: 40px;
+    padding-left: 140px;
   }
   .Home-title {
     width: 411px;
     font-size: 42px;
     font-weight: 400;
     line-height: 1.36;
+    margin: 0;
   }
 
   .Home-text {
@@ -1787,10 +1807,13 @@ footer {
     font-size: 17px;
     line-height: 1.48;
   }
+  .Extra {
+    width: 1200px;
+  }
   .Extra-container {
     width: 1020px;
     height: 574px;
-    flex-shrink: 0;
+    margin: 0 auto;
     margin: 40px 90px 140px 90px;
   }
   .Extra-button {
@@ -1805,7 +1828,7 @@ footer {
   .Rectangle-container {
     width: 1200px;
     height: 374px;
-    flex-shrink: 0;
+    padding-left: 80px;
   }
   .Rectangle-list {
     gap: 40px;
@@ -1890,9 +1913,13 @@ footer {
     margin-right: 289px;
     padding-left: 20px;
   }
+  footer {
+    width: 1200px;
+  }
   .footer-container {
     width: 1200px;
-    margin-left: 100px;
+    margin: 0 auto;
+    padding-left: 100px;
   }
   .footer-list {
     gap: 67px;
@@ -1910,6 +1937,6 @@ footer {
     margin-top: 16px;
   }
 }
-.error{
-  background: rgba(0, 0, 0, 0.40);
+.error {
+  background: rgba(0, 0, 0, 0.4);
 }
