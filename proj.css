@@ -36,8 +36,7 @@ nav {
   line-height: 1.2;
 }
 .aro {
-  background: url(./proj-img/family.webp) lightgray 50% / cover no-repeat;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
 }
 .aro-container {
@@ -45,10 +44,11 @@ nav {
   height: 799px;
   color: #24160b;
   font-family: "Roboto", sans-serif;
+  background: url(./proj-img/family.webp) lightgray 50% / cover no-repeat;
   justify-content: center;
   margin: 0 auto;
   width: 320px;
-  margin-bottom: 20px;
+  padding-top: 30px;
 }
 .aro-title {
   font-size: 32px;
@@ -65,7 +65,9 @@ nav {
   padding-left: 5px;
   padding-top: 8px;
 }
-
+.Introducing {
+  padding-bottom: 25px;
+}
 .Introducing-container {
   font-family: "Roboto", sans-serif;
   color: #24160b;
@@ -73,7 +75,6 @@ nav {
   margin: 0 auto;
   padding-bottom: 40px;
   width: 320px;
-  margin-bottom: 45px;
   flex-direction: column;
   position: relative;
 }
@@ -128,16 +129,14 @@ nav {
 }
 .teach {
   margin: 0 auto;
+  padding-bottom: 45px;
 }
 .teach-container {
   color: #24160b;
   font-family: "Roboto", sans-serif;
-  position: center;
   justify-content: center;
   margin: 0 auto;
-
   width: 320px;
-  margin-bottom: 45px;
 }
 
 .teach-title {
@@ -190,7 +189,10 @@ nav {
   margin-left: 6px;
   margin-bottom: 10px;
 }
-
+.bottom-text-div {
+  display: flex;
+  gap: 36px;
+}
 .teach-text-kids {
   width: 310px;
   font-size: 18px;
@@ -199,7 +201,10 @@ nav {
   margin-top: 15px;
   margin-bottom: 20px;
 }
-
+.teach-img-kids {
+  width: 320px;
+  height: 305px;
+}
 .teach-text-bottom-kids {
   width: 177px;
   font-size: 12px;
@@ -213,11 +218,15 @@ nav {
   line-height: 3.06;
   margin-left: 6px;
 }
-
+.bottom-text-div-kid {
+  display: flex;
+  gap: 36px;
+}
 .bottom-text-interest-kids {
   width: 86px;
   font-size: 40px;
   line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 .teach-title-partner {
@@ -261,7 +270,10 @@ nav {
   font-size: 40px;
   line-height: 1.4;
 }
-
+.bottom-text-div-part {
+  display: flex;
+  gap: 36px;
+}
 .teach-title-me {
   font-weight: 400;
   font-size: 32px;
@@ -304,19 +316,18 @@ nav {
   font-size: 40px;
   line-height: 1.4;
 }
-.bottom-text-div {
+.bottom-text-div-me {
   display: flex;
   gap: 36px;
 }
 .featured {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   margin: 0 auto;
 }
 .Featured-container {
   width: 320px;
   color: #24160b;
   font-family: "Roboto", sans-serif;
-  justify-content: center;
   margin: 0 auto;
 }
 .Featured-title {
@@ -328,18 +339,23 @@ nav {
 }
 
 .Featured-list {
+  margin: 0 auto;
   display: flex;
   gap: 20px;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .Featured-image {
-  margin-top: 50px;
+  margin: 0 auto;
+
   height: 33px;
+  width: 77px;
 }
 .featured-link {
-  width: 77px;
   height: 32px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .see {
   margin: 0 auto;
@@ -389,8 +405,7 @@ nav {
 }
 
 .see-div-image {
-  padding-left: 17px;
-  padding-right: 17px;
+  margin: 0 auto;
 }
 .Experience {
   margin: 0 auto;
@@ -788,7 +803,7 @@ footer {
   font-family: "Roboto", sans-serif;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 40px;
+  padding-bottom: 60px;
 }
 .footer-list {
   display: flex;
@@ -894,7 +909,6 @@ footer {
     line-height: 1.4;
   }
   .aro {
-    background: url(./proj-img/family.webp) lightgray 50% / cover no-repeat;
     width: 768px;
   }
   .aro-container {
@@ -972,7 +986,7 @@ footer {
     width: 362px;
     height: 227px;
     position: absolute;
-    left: 370px;
+    left: 400px;
   }
   .tea {
     display: flex;
@@ -982,25 +996,34 @@ footer {
     width: 351px;
     font-size: 15px;
     line-height: 1.66;
+    margin-top: 6px;
   }
   .teach-text-bottom {
     width: 290px;
     font-size: 13px;
     line-height: 1.23x;
   }
-  .bottom-text-div:odd {
+  .bottom-text-div {
     display: flex;
-    flex-direction: row-reverse;
+    gap: 5px;
   }
   .bottom-text-interest {
     width: 127px;
     font-size: 40px;
     line-height: 1.17;
+    margin-top: 35px;
+    margin-right: 18px;
   }
   .bottom-text-left {
     width: 142px;
     font-size: 10px;
     padding-left: 0;
+    position: absolute;
+    bottom: 3px;
+  }
+  .kid-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .teach-title-kids {
     width: 623px;
@@ -1041,6 +1064,20 @@ footer {
     width: 127px;
     font-size: 10px;
     line-height: 1.2;
+    bottom: 77px;
+    right: 31px;
+    position: absolute;
+  }
+  .kidd {
+    display: flex;
+  }
+  .bottom-text-div-kid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .part-container {
+    padding-bottom: 60px;
   }
   .teach-title-partner {
     font-size: 44px;
@@ -1049,9 +1086,10 @@ footer {
   }
   .teach-img-partner {
     width: 362px;
+    height: 262px;
     border-radius: 16px;
     position: absolute;
-    left: 370px;
+    left: 410px;
   }
   .part {
     display: flex;
@@ -1070,11 +1108,19 @@ footer {
     width: 81px;
     font-size: 40px;
     line-height: 1.17;
+    margin-top: 35px;
+    margin-right: 18px;
+  }
+  .bottom-text-div-part {
+    display: flex;
+    gap: 5px;
   }
   .bottom-text-left-partner {
     width: 95px;
     font-size: 10px;
     line-height: 1.1;
+    position: absolute;
+    bottom: 75px;
   }
   .teach-title-me {
     font-size: 42px;
@@ -1105,6 +1151,13 @@ footer {
     width: 73px;
     font-size: 10px;
     line-height: 1.1;
+    position: absolute;
+    right: 75px;
+    bottom: 11px;
+  }
+  .bottom-text-div-me {
+    flex-direction: column;
+    gap: 5px;
   }
   .me {
     display: flex;
@@ -1136,7 +1189,7 @@ footer {
   }
   .Featured-image {
     margin: 0 auto;
-    margin-left: 320px;
+    margin-left: 345px;
   }
   .featured-list-item-link-image {
     width: 81px;
@@ -1153,8 +1206,6 @@ footer {
     width: 768px;
     padding-left: 30px;
     padding-top: 50px;
-  }
-  .top-div {
   }
   .see-title {
     font-size: 58px;
@@ -1598,15 +1649,17 @@ footer {
     width: 108px;
     font-size: 58px;
     line-height: 1.3;
+    margin: 0;
+    order: 0;
   }
   .bottom-text-left {
     width: 136px;
     font-size: 10px;
     line-height: 3.06;
+    position: relative;
   }
   .bottom-text-div {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 5px;
   }
   .teach-title-kids {
@@ -1633,18 +1686,26 @@ footer {
     font-size: 16px;
     line-height: 1.4;
     margin-left: 104px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .bottom-text-interest-kids {
     font-size: 60px;
     line-height: 1.3;
     margin-left: 104px;
   }
+  .kidd {
+    display: flex;
+    flex-direction: column;
+  }
   .bottom-text-left-kids {
     width: 130px;
     font-size: 10px;
     line-height: 3.06;
+    position: static;
     margin-left: 104px;
+  }
+  .bottom-text-div-kid {
+    flex-direction: column-reverse;
   }
   .teach-title-partner {
     width: 386px;
@@ -1672,11 +1733,17 @@ footer {
     width: 109px;
     font-size: 58px;
     line-height: 1.3;
+    margin-top: 6px;
+    margin-bottom: 12px;
   }
   .bottom-text-left-partner {
     width: 101px;
     font-size: 10px;
     line-height: 3.06;
+    position: static;
+  }
+  .bottom-text-div-part{
+    flex-direction: column-reverse;
   }
   .teach-title-me {
     width: 364px;
@@ -1713,6 +1780,10 @@ footer {
     font-size: 10px;
     line-height: 3.06;
     margin-left: 104px;
+    position: static;
+  }
+  .bottom-text-div-me{
+    flex-direction: column-reverse;
   }
   .Featured-container {
     width: 1200px;
